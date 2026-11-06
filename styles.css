@@ -684,6 +684,21 @@ body.dark-theme .theme-toggle {
 
 .achievements {
   padding: 1.6rem;
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.42);
+  border: 1px solid rgba(123, 97, 194, 0.12);
+  box-shadow: 0 16px 30px rgba(17, 24, 39, 0.06);
+}
+
+.achievements h3 {
+  margin: 0;
+  color: var(--text);
+  font-size: 1.5rem;
+}
+
+.sub-award-title {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .achievements ul {
