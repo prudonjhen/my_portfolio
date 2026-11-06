@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -28,6 +28,7 @@
         <nav class="main-nav" aria-label="Main navigation">
           <a href="#home">Home</a>
           <a href="#about">About</a>
+          <a href="#experience">Experience</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#education">Education</a>
@@ -44,7 +45,7 @@
             <p class="eyebrow">Student Developer • Web Enthusiast</p>
             <h1>Building creative digital experiences through code.</h1>
             <p class="lead">
-              Hi, I'm <strong>Jennilyn Prudon</strong>, a Computer Science student passionate about
+              Hi, I'm <strong>Jennilyn Prudon</strong>, a Information Technology student passionate about
               user-focused web design, front-end development, and interactive problem solving.
             </p>
             <div class="actions">
@@ -52,22 +53,18 @@
               <a class="button secondary" href="#contact">Contact Me</a>
             </div>
             <ul class="quick-facts" aria-label="Quick facts about Jennilyn">
-              <li><span>2+</span>Years of study</li>
-              <li><span>8+</span>Projects built</li>
-              <li><span>100%</span>Curious learner</li>
+              <li><span data-target="2" data-suffix="+">0</span>Years of study</li>
+              <li><span data-target="8" data-suffix="+">0</span>Projects built</li>
+              <li><span data-target="100" data-suffix="%">0</span>Curious learner</li>
             </ul>
           </div>
 
           <div class="hero-visual">
             <div class="profile-card">
               <img
-                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=80"
+                src="photos/Jhen Pic.jpg"
                 alt="Professional portrait of Jennilyn Prudon"
               />
-              <div class="mini-badge">
-                <span class="dot"></span>
-                Available for internships
-              </div>
             </div>
           </div>
         </div>
@@ -81,16 +78,61 @@
           </div>
           <div>
             <p>
-              I am a Computer Science student with a strong interest in web development,
-              responsive design, and building clean digital experiences. My work combines
-              creativity with logical thinking, and I enjoy turning ideas into interactive,
-              user-friendly websites.
+              I am an Information Technology student with a strong interest in web development, 
+              responsive design, and building clean digital experiences. My work combines creativity with logical thinking, 
+              and I enjoy turning ideas into interactive, user-friendly websites. My professional background includes serving as a 
+              Sales Executive at Mitsubishi Autohub Valenzuela, where I honed my client communication skills, as well as hands-on 
+              IT site support experience, where I managed daily operations, technical troubleshooting, and company documentation.
             </p>
             <p>
               Through coursework and personal projects, I have developed practical skills in
               HTML, CSS, JavaScript, PHP, and database work. I aim to build meaningful,
               accessible, and efficient solutions that help users and businesses alike.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+          <p class="section-tag">Work  Experience</p>
+          <h1>Proven experience in professional work.</h1>
+          </div>
+
+        <div class="container experience-grid">
+          <article class="experience-card">
+            <span class="experience-date">2025 – Present</span>
+            <h3>Site Lead in Meycauayan Registry of Deeds</h3>
+            <p class="experience-company">Land Registration System Inc.(Primetech Agency)</p>
+            <ul>
+              <li>Supervise and coordinate daily IT site support operations.</li>
+              <li>Manage daily network maintenance and system updates.</li>
+              <li>Troubleshoot and resolve hardware and software issues.</li>
+            </ul>
+          </article>
+
+          <article class="experience-card">
+            <span class="experience-date">2024 – 2025</span>
+            <h3>Admin Officer</h3>
+            <p class="experience-company">Top Opthatmic Products Services Corp</p>
+            <ul>
+              <li>Maintain, audit and update employee and operational records.</li>
+              <li>Generate, track and distribute weekly and monthly status reports.</li>
+              <li>Organise, digitise and archive confidential company files.</li>
+            </ul>
+          </article>
+
+          <article class="experience-card">
+            <span class="experience-date">2023</span>
+            <h3>Sales Executive</h3>
+            <p class="experience-company">Mitsubishi Autohub Valenzuela</p>
+            <ul>
+              <li>Selling and promoting cars to the client.</li>
+              <li>Engage clients and promote vehicle sales and features.</li>
+              <li>Market and sell automobiles to individual clients.</li>
+            </ul>
+          </article>
           </div>
         </div>
       </section>
@@ -153,65 +195,45 @@
             <div class="filter-group" aria-label="Project category filter">
               <button class="filter-btn active" data-filter="all">All</button>
               <button class="filter-btn" data-filter="web">Web</button>
-              <button class="filter-btn" data-filter="database">Database</button>
-              <button class="filter-btn" data-filter="ui">UI</button>
+              <button class="filter-btn" data-filter="data structures">Data Structures</button>
             </div>
           </div>
 
           <div class="projects-grid">
             <article class="project-card" data-category="web">
               <img
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
+                src="photos/image.png"
                 alt="Students collaborating on project planning"
               />
               <div class="project-body">
                 <span class="project-tag">Web Development</span>
-                <h3>Campus Event Landing Page</h3>
+                <h3>My Portfolio</h3>
                 <p>
-                  A responsive event website created for a school activity, featuring event
-                  details, schedules, and a contact section for participants.
+                  A responsive personal portfolio website built using HTML, CSS, and JavaScript, featuring an introduction, 
+                  project showcase, and contact section. Designed with a clean layout and mobile-friendly interface to present 
+                  my work and skills effectively.
                 </p>
                 <div class="project-links">
-                  <a href="https://github.com" target="_blank" rel="noreferrer">Repository</a>
-                  <a href="https://example.com" target="_blank" rel="noreferrer">Live Demo</a>
+                  <a href="https://github.com/prudonjhen/my_portfolio.git" target="_blank" rel="noreferrer">Repository</a>
+                  <a href="https://prudonjhen.github.io/my_portfolio/" target="_blank" rel="noreferrer">Live Demo</a>
                 </div>
               </div>
             </article>
 
-            <article class="project-card" data-category="database">
+            <article class="project-card" data-category="data structures">
               <img
                 src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=80"
                 alt="Laptop with code on screen"
               />
               <div class="project-body">
-                <span class="project-tag">Database</span>
-                <h3>Student Record System</h3>
+                <span class="project-tag">Data Structures</span>
+                <h3>Activity in Python (Linked List Implementation)</h3>
                 <p>
-                  A PHP and MySQL-based system to manage student information, records, and
-                  academic data with secure, organized storage and updates.
+                  This activity implements a singly linked list in Python, demonstrating node creation, 
+                  insertion, traversal, and deletion.
                 </p>
                 <div class="project-links">
-                  <a href="https://github.com" target="_blank" rel="noreferrer">Repository</a>
-                  <a href="https://example.com" target="_blank" rel="noreferrer">Case Study</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="project-card" data-category="ui">
-              <img
-                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
-                alt="Mobile app interface design"
-              />
-              <div class="project-body">
-                <span class="project-tag">UI Design</span>
-                <h3>Fitness Tracker Dashboard</h3>
-                <p>
-                  A concept dashboard focused on clean UI, accessibility, and simple data
-                  visualization for personal health and activity goals.
-                </p>
-                <div class="project-links">
-                  <a href="https://github.com" target="_blank" rel="noreferrer">Repository</a>
-                  <a href="https://example.com" target="_blank" rel="noreferrer">Prototype</a>
+                  <a href="https://github.com/prudonjhen/LINKED-LIST.git" target="_blank" rel="noreferrer">Repository</a>
                 </div>
               </div>
             </article>
@@ -229,32 +251,37 @@
           <div class="edu-layout">
             <div class="timeline">
               <div class="timeline-item">
-                <span class="year">2022 - Present</span>
+                <span class="year">2025 - Present</span>
                 <div>
-                  <h3>Bachelor of Science in Computer Science</h3>
-                  <p>University of Technology and Innovation</p>
+                  <h3>Bachelor of Science in Information Technology</h3>
+                  <p>ICCT Cainta</p>
                 </div>
               </div>
-              <div class="timeline-item">
-                <span class="year">2021</span>
-                <div>
-                  <h3>Senior High School Graduate</h3>
-                  <p>STEM Track</p>
-                </div>
-              </div>
-            </div>
 
-            <div class="achievements">
-              <h3>Certificates & Highlights</h3>
-              <ul>
-                <li>Web Development Fundamentals Certificate</li>
-                <li>Introduction to Database Management</li>
-                <li>Academic Excellence Award in Information Technology</li>
-                <li>Workshop on Front-End Design and User Experience</li>
-              </ul>
+              <div class="timeline-item">
+                <span class="year">2005</span>
+                <div>
+                  <h3>Bachelor of Science in Hotel and Restaurant Management</h3>
+                  <p>St. Paul University of Manila</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <span class="year">2000</span>
+                <div>
+                  <h3>St. Marys Academy of Sta Ana Manila</h3>
+                  <p>HIGHSCHOOL</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <span class="year">1998</span>
+                <div>
+                  <h3>Maysan Elementary School</h3>
+                  <p>ELEMENTARY</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
       </section>
 
       <section id="contact" class="section contact-section alt-bg">
@@ -267,9 +294,8 @@
               skills through real-world development experience.
             </p>
             <ul class="contact-list">
-              <li><strong>Email:</strong> ariana.ramos.dev@gmail.com</li>
-              <li><strong>GitHub:</strong> github.com/ariana-ramos</li>
-              <li><strong>LinkedIn:</strong> linkedin.com/in/ariana-ramos</li>
+              <li><strong>Email:</strong> prudonjhen@gmail.com</li>
+              <li><strong>GitHub:</strong> github.com/prudonjhen</li>
             </ul>
           </div>
 
@@ -295,7 +321,7 @@
 
     <footer class="site-footer">
       <div class="container footer-wrap">
-        <p>© 2026 Ariana Ramos Portfolio</p>
+        <p>© 2026 Jennilyn Prudon Portfolio</p>
         <div class="footer-links">
           <a href="#home">Top</a>
           <a href="#projects">Projects</a>
